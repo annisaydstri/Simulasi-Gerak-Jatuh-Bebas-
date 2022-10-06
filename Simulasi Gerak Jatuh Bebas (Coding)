@@ -1,0 +1,8 @@
+Private Sub ANNISA_Click()
+ Range("D12").Value = 0  '0
+ delta_t = Range("E8").Value '0,1
+  While Range("D12").Value < 9
+  Range("D12").Value = Range("D12").Value + delta_t
+  DoEvents
+ Wend
+End Sub
